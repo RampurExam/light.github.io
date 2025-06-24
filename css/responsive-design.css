@@ -1,0 +1,300 @@
+@media screen and (max-width: 1060px) {
+  .container {
+    max-width: 1060px;
+  }
+  .hero-section {
+    width: 100%;
+    min-height: 600px;
+    background-color: #000024;
+    background-image: url(/asset/images/banner/banner-left-top.png),
+      url(/asset/images/banner/banner-top-right.png);
+    background-position: left top, right -12px top -75px,
+      right 50px bottom -100px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+  }
+  .hero-wrapper {
+    width: 100%;
+    display: inline;
+  }
+  .hero-wrapper .hero-wrapper-left {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .hero-wrapper img {
+    display: none;
+  }
+  .hero-outer {
+    justify-content: center;
+  }
+  .result-wrapper ul li {
+    padding: 15px;
+  }
+  .inner-text h3 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 982px) {
+  .container {
+    max-width: 982px;
+  }
+  .navbar .nav-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    background-color: #f8f9fa;
+    position: fixed;
+    top: 58px;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 1000;
+  }
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  h1 {
+    font-size: 38px;
+  }
+  .header-wrapper {
+    justify-content: space-around;
+  }
+  .banner-logo-wrapper img:last-child {
+    display: none;
+  }
+  .happy-tutors-say-wrapper ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .result-wrapper ul li {
+    flex-direction: column;
+    text-align: center;
+    gap: 6px;
+  }
+  .result-wrapper h3 {
+    font-size: 15px;
+  }
+
+  .banner-wrapper-2 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #ffffff;
+  }
+  .banner-wrapper-2 p {
+    font-size: 12px;
+  }
+  .owl-carousel-wrapper ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .happy-tutors-say-wrapper ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-card ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 780px) {
+  .container {
+    max-width: 720px;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .section-card ul,
+  .wwo-wrapper ul,
+  .how-it-work-wrapper ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .brand-wrapper ul,
+  .owl-carousel-wrapper ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .how-it-work-wrapper h2 {
+    font-size: 30px;
+  }
+  .banner-wrapper h2 {
+    font-size: 38px;
+  }
+  .banner-wrapper p {
+    font-size: 15px;
+  }
+  .result-wrapper ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-lists {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+  }
+  .features-container ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+  }
+  .features-container ul li:not(:last-child):after {
+    display: none;
+  }
+  .f-a-q-wrapper h2 {
+    font-size: 30px;
+  }
+  .f-a-q-wrapper ul li p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .container {
+    max-width: 610px;
+  }
+  .logo-resize {
+    width: 60%;
+  }
+  .features-container ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .brand-wrapper ul {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .owl-carousel-wrapper ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .happy-tutors-say-wrapper ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .banner-wrapper p {
+    font-size: 13px;
+  }
+  .brand-wrapper h2 {
+    font-size: 29px;
+  }
+
+  .tutors-card {
+    padding: 15px 20px;
+  }
+  .copy-write-decription {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .inner-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 460px) {
+  .container {
+    max-width: 425px;
+  }
+
+  .login-menu {
+    display: none;
+  }
+  .header-wrapper .fa-right-to-bracket {
+    display: block;
+  }
+  .search-container input[type="text"] {
+    padding: 15px 0px 15px 15px;
+    font-size: 15px;
+  }
+  .hero-outer {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .features-container ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .features-container ul li {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .section-card ul,
+  .wwo-wrapper ul,
+  .how-it-work-wrapper ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .banner-wrapper h2 {
+    font-size: 20px;
+  }
+  .banner-wrapper a {
+    font-size: 16px;
+  }
+  .brand-wrapper h2 {
+    font-size: 25px;
+  }
+  .brand-wrapper ul {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  .how-it-work-wrapper h2 {
+    font-size: 22px;
+  }
+  .owl-carousel-wrapper h2 {
+    font-size: 30px;
+  }
+  .owl-carousel-wrapper ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .banner-wrapper-2 h2 {
+    font-size: 22px;
+  }
+  .banner-wrapper-2 p {
+    text-align: center;
+  }
+  .wwo-wrapper h2 {
+    font-size: 30px;
+  }
+  .wwo-wrapper ul li p {
+    font-size: 12px;
+  }
+  .happy-tutors-say-wrapper h2 {
+    font-size: 30px;
+  }
+  .happy-tutors-say-wrapper p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .banner-wrapper p {
+    font-size: 13px;
+    text-align: center;
+  }
+  .inner-wrapper {
+    text-align: center;
+  }
+  .result-wrapper ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .f-a-q-wrapper h2 {
+    font-size: 22px;
+  }
+  .f-a-q-wrapper ul li p {
+    font-size: 12px;
+  }
+  .banner-wrapper-2 h2 {
+    text-align: center;
+  }
+  .banner-wrapper-2 a {
+    font-size: 12px;
+  }
+  .footer-lists {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .copy-write-decription {
+    gap: 5px;
+  }
+}
